@@ -1,0 +1,19 @@
+print("SIMPLE CALUCULATOR")
+First=float(input("ENTER THE FIRST NUMBER:"))
+Second=float(input("ENTER THE SECOND NUMBER:"))
+Arithmeticoperation=input("ENTER THE OPERATION '+' / '-' / '*' / '/' ")
+if(Arithmeticoperation=='+'):
+    ADD=First+Second
+    print("Addition of given two numbers is:",ADD)
+elif Arithmeticoperation=='-':
+    SUB=First-Second
+    print("Subtraction of given two numbers is:",SUB)
+elif Arithmeticoperation=='*':
+    MUL=First*Second
+    print("Multiplication of given two numbers is:",MUL)
+elif Arithmeticoperation=='/':
+    if(Second==0):
+        print("Error:Divison by Zero")
+    else:
+        DIV=First/Second
+        print("Divison of given two numbers is:",DIV)
